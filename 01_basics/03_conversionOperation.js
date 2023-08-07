@@ -50,9 +50,9 @@
 // "false" => 0
 
 
-let isLoggedIn = 1
-let booleanIsLoggedIn =Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);             //Output will be "true"
+// let isLoggedIn = 1
+// let booleanIsLoggedIn =Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);             //Output will be "true"
 
 // For Boolean conversion
 
@@ -64,6 +64,52 @@ console.log(booleanIsLoggedIn);             //Output will be "true"
 
 let number = 33
 let numberString = String(number)
-console.log(numberString);
-console.log(typeof(numberString));
+// console.log(numberString);
+// console.log(typeof(numberString));
 
+
+
+// ******************************************Operation*********************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let a = 3;
+let b = 5;
+let c = a+b;
+// console.log(c);
+
+console.log(2+2);
+console.log(2*2);
+console.log(2-2);
+console.log(2/2);
+console.log(2**3);  //means 2 raise to the power to 2
+console.log(2%2);
+
+
+let str1 = "Sumant"
+let str2 = " kumar"
+let str3 = str1+str2
+console.log(str3);
+
+
+console.log(1+2+3);     //6
+console.log(1+2+"3");   //33
+console.log(1+"3");     //13
+console.log("3"+1);     //31
+console.log("3"+1+2);   //312
+
+console.log(true);   //true
+console.log(+true);  //1
+console.log(+"");    //0
+
+            // **************Increment & Decrement operator**************
+let counter = 10;
+counter++;
+console.log(counter);
+
+let s = 5;
+let m = (s++)+1;
+console.log(m);
+console.log(s);
