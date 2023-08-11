@@ -79,8 +79,8 @@ let myName = "Sumant";
 let anotherName = myName;
 anotherName = "Ayush";
 
-// console.log(myName);
-// console.log(anotherName);
+// console.log(myName);         //Sumant
+// console.log(anotherName);    //Ayush
 
 
 let userOne = {
@@ -90,5 +90,5 @@ let userOne = {
 let userTwo = userOne;
 userTwo.email = "ayush@gmail";
 
-console.log(userOne.email)
-console.log(userTwo.email);
+console.log(userOne.email)   //ayush@gmail
+console.log(userTwo.email);  //ayush@gmail
