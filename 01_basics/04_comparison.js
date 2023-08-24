@@ -15,7 +15,7 @@
 //console.log(null>=0);   //true
                 // Equality == and comparison > < >= <= works differently.
                 // comparison convert null to a number,treating it as 0.
-                // That's why 11 is false,13 is true & 12 is false 
+                // That's why 13 is false,15 is true & 14 is false 
 
 console.log(undefined>0);    //false
 console.log(undefined==0);   //false
