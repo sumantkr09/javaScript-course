@@ -67,3 +67,35 @@ console.log(user.hasOwnProperty('isLogged'))               //false
 
 
 
+// De-structuring
+
+
+const course = {
+    courseName: "Hindi",
+    price: 999,
+    courseInstructor: "Sumant"
+}
+console.log(course.courseInstructor);
+console.log(course["courseInstructor"]);
+
+
+const {courseInstructor: instructor} = course;
+console.log(instructor); 
+
+
+//JSON Object
+
+// {
+//     "name": "Sumant",
+//     "coursename": "C Programming",
+//     "price": "free"
+// }
+
+
+
+[
+     {},
+     {},
+     {},
+     {}
+]
