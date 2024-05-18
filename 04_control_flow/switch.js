@@ -77,3 +77,5 @@ let val1;
 val1 = undefined ?? null
 console.log(val1)
 
+
+// for loop, same as C
