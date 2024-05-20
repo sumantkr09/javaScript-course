@@ -18,6 +18,8 @@ coding.forEach( (item, index, arr) => {
 
 
 // *************************Important**********************
+// To access the object inside array
+
 
 
 const code = [
