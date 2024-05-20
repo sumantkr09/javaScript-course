@@ -78,4 +78,10 @@ val1 = undefined ?? null
 console.log(val1)
 
 
-// for loop, same as C
+// (for loop, while loop, do-while loop) same as C
+
+let myArr = ["Sumant", "Shruti", "Ayush"]
+for(let i = 0; i < myArr.length; i++ )
+    {
+        console.log(`Value is ${myArr[i]}`)
+    }
