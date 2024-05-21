@@ -1,5 +1,5 @@
 // If we use for each in js.Then we can't return the value (undefined).
-// We use filter in general to return the value
+// We use filter in general to return the value (True/false)
 
 const myArr = [1,2,3,4,5,6,7,8]
 
